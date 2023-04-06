@@ -166,3 +166,11 @@ header h1{
     background-position: center;
     background-size: cover;
 }
+
+
+@media (max-width:500px) {
+    .container1{
+        display: block;
+    }
+    
+}
