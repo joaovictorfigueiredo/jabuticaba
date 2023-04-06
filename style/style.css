@@ -5,7 +5,10 @@
     padding: 0px;
 }
 
-
+body{
+    width: 100vw;
+    height: 100vh;
+}
 header img{
     width: 100%;
 }
