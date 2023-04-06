@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header img{
+    width: 100%;
+}
+
+header h1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: #cba791;
+}
+
+.boxrow1 img{
+    width: 400px;
+}
+
+.boxrow1{
+    align-items: center;
+    display: inline-flex;
+}
+
+.cont{
+    background: #E3A884;;
+    padding: 52px;
+    width: 191px;
+    margin: 20px;
+    /* color: #fff; */
+    border-radius: 50%;
+    height: 160px;
+    box-shadow: 10px 10px 10px #000;
+}
+
+
+.linha-vertical{
+    border: 3px solid #f40303;
+    width: 0px;
+    height: 140px;
+    display: flex;
+    text-align: center;
+    margin-left: 50%;
+}
+
+#container1{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    background: #49362a;
+    /*background: url(..//imagens/jabuticaba.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;*/
+
+}
+
+#container1 div p{
+    font-style: normal;
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+#container2{
+    background: #49362a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+}
+.boxrow2{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.boxrow2 p{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.boxrow2 img{
+    
+    width: 145px;
+
+}
+
+.cont p{
+    color: #fff!important;
+}
+
+.boxrow2 a{
+    text-align: center;
+    display: block;
+    background: #ff7d0f;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.boxrow2 a:hover{
+    padding: 14px;
+    box-shadow: 10px 10px 10px #ff7b0f76;
+    transition: 0.5s;
+}
+
+#container3{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #fff;
+        background: url(..//imagens/10075507.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container3 p{
+    font-size: 24px;
+    background: #00000075;
+    color: #fff;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn a{
+    text-align: center;
+    display: block;
+    background: #ff7d0f;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+
+}
+
+.btn a:hover{
+    background: #e3a884;
+    
+}
+
+#paralax{
+    height: 120px;
+    width: 100%;
+    background: url(..//imagens/jabuticaba.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
